@@ -1,0 +1,11 @@
+Console.WriteLine("Introduce un año");
+int imput_year= int.Parse(Console.ReadLine());
+if ((imput_year % 4)==0 && (imput_year %100)==0 )
+{
+Console.WriteLine("Asi es, es bisiesto");
+}
+else
+{
+Console.WriteLine("Negativo, es un año bisiesto");
+}
+return;
